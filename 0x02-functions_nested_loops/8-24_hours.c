@@ -3,7 +3,7 @@
 /**
  * jack_bauer - Print every minutes from 00:00 to 23:59
  *
- * Return: Always 0 (Success)
+ * Return: no Return value, this is void function
  */
 void jack_bauer(void)
 {
