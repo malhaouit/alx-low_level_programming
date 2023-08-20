@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-	int firstFibo = 1;
-	int secondFibo = 2;
-	int nextFibo;
+	long firstFibo = 1;
+	long secondFibo = 2;
+	long nextFibo;
 	int i;
 
-	printf("%d, %d", firstFibo, secondFibo);
+	printf("%ld, %ld", firstFibo, secondFibo);
 
 	for (i = 2; i < 50; i++)
 	{
 		nextFibo = firstFibo + secondFibo;
 
-		printf(", %d", nextFibo);
+		printf(", %ld", nextFibo);
 		firstFibo = secondFibo;
 		secondFibo = nextFibo;
 	}
