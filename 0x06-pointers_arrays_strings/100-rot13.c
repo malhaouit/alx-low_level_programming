@@ -8,8 +8,8 @@
  */
 char *rot13(char *s)
 {
-	char origineAlphabets[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char encodedAlphabets[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char origine[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char encoded[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	int i = 0;
 	int j;
 
@@ -19,13 +19,14 @@ char *rot13(char *s)
 
 		while (j < 52)
 		{
-			if (s[i] == origineAlphabets[j])
+			if (s[i] == origine[j])
 			{
-				s[i] = encodedAlphabets[j];
+				s[i] = encoded[j];
 				break;
 			}
 			j++;
 		}
 		i++;
 	}
+	return (s);
 }
