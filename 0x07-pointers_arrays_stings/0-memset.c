@@ -5,6 +5,7 @@
  * in memory
  * @b: The constant to fill
  * @n: Number of bytes to be filled
+ * @s: the buffer passed
  *
  * Return: the buffer
  */
