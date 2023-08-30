@@ -1,5 +1,15 @@
 #include "main.h"
 
+/**
+ * _square_recursion_helper - Calculate the natural square root of a number
+ * @n: The number
+ * @m: Helps to see if n is applied to natural square root using by comparing n
+ * to m * m
+ *
+ * Return: Natural square root if n have natural square root
+ * or -1 if not
+ */
+
 int _square_recursion_helper(int n, int m)
 {
 	if (n < 0)
@@ -18,7 +28,7 @@ int _square_recursion_helper(int n, int m)
  * _sqrt_recursion - Calculate the natural square root of a number
  * @n: The number to apply the natural square root
  *
- * Return: Natural square root if nhave natural square root
+ * Return: Natural square root if n have natural square root
  * or -1 if not
  */
 int _sqrt_recursion(int n)
