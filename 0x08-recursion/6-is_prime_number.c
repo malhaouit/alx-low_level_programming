@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * prime_number_helper - Checks if the number is prime or not
+ * @n: The number to check
+ * @i: The divisor of n starting from i = 2 to check the result
+ *
+ * Return: 1 if number is prime or 0 if not
+ */
+
 int prime_number_helper(int n, int i)
 {
 	if (n <= 1)
