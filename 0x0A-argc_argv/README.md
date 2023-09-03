@@ -7,3 +7,4 @@ Task 2: Write a program that prints all arguments it receives.
 Task 3: Write a program that multiplies two numbers.
 Task 4: Write a program that adds positive numbers.
 Optional advanced task:
+Task 5: Write a program that prints the minimum number of coins to make change for an amount of money.
