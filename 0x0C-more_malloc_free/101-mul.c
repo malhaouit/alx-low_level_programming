@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 void print(char *s)
 {
@@ -37,6 +38,7 @@ int main(int argc, char *argv[])
 	if (isTwoDigit(atoi(argv[1])) && isTwoDigit(atoi(argv[2])))
 	{
 		sum = atoi(argv[1]) + atoi(argv[2]);
+		printf("%d\n", sum);
 	}
 	else
 	{
