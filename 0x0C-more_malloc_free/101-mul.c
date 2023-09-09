@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
 		int numDigits;
 		char *str;
 
-		sum = atoi(argv[1]) + atoi(argv[2]);
+		sum = atoi(argv[1]) * atoi(argv[2]);
 		if  (sum == 0)
 		{
 			_putchar('0');
