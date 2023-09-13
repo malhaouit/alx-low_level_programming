@@ -7,7 +7,7 @@
  * @action: The function pointer to the function that prints the
  * elements
  *
- * Return: nothing
+ * Return: Nothing
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
