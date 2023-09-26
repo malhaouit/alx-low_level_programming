@@ -1,21 +1,19 @@
 The previous project we covered the singly linked lists. We are going to cover more on singly linked lists in this project.
 
-# Our project here includes 11 mandatory tasks and 4 advanced tasks (optional).
+# Our project here includes 11 mandatory tasks and 4 advanced tasks (optionadata structure for this project.
 
-We will use this data structure for this project.
-
-/**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * 
- */
-typedef struct listint_s
-{
-    int n;
-    struct listint_s *next;
+Our data structure for all tasks int this  project:  
+ \* struct listint_s - singly linked list
+ \* @n: integer
+ \* @next: points to the next node
+ \*
+ \* Description: singly linked list node structure
+ \* 
+ \*/
+typedef struct listint_s <br>
+{ <br>
+    int n; <br>
+    struct listint_s *next; <br>
 } listint_t;
 
 ## Mandatory tasks
