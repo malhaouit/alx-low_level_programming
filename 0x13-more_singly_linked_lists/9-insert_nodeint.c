@@ -43,7 +43,10 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	len = listint_len(*head);
 
-	if (idx >= len)
+	if (len == 0)
+		return (NULL);
+
+	if (idx >= len - 1)
 		return (NULL);
 
 	while (pos < idx)
