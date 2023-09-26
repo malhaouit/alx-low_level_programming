@@ -1,6 +1,6 @@
 The previous project we covered the singly linked lists. We are going to cover more on singly linked lists in this project.
 
-#Our project here includes 11 mandatory tasks and 4 advanced tasks (optional).
+# Our project here includes 11 mandatory tasks and 4 advanced tasks (optional).
 
 We will use this data structure for this project.
 
@@ -18,7 +18,7 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-##Mandatory tasks
+## Mandatory tasks
 Task 0:
 
 Write a function that prints all the elements of a listint_t list.
