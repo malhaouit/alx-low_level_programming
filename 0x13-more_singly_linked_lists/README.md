@@ -3,13 +3,13 @@ The previous project we covered the singly linked lists. We are going to cover m
 # Our project here includes 11 mandatory tasks and 4 advanced tasks (optionadata structure for this project.
 
 Our data structure for all tasks int this  project:  
- \* struct listint_s - singly linked list
- \* @n: integer
- \* @next: points to the next node
- \*
- \* Description: singly linked list node structure
- \* 
- \*/
+ \* struct listint_s - singly linked list <br>
+ \* @n: integer <br>
+ \* @next: points to the next node <br>
+ \* <br>
+ \* Description: singly linked list node structure <br>
+ \* <br>
+ \*/ <br>
 typedef struct listint_s <br>
 { <br>
     int n; <br>
