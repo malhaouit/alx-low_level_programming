@@ -22,7 +22,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
+	print_binary(n >> 1);
 	lastDigit = n & 1;
 	_putchar('0' + lastDigit);
-	print_binary(n >> 1);
 }
