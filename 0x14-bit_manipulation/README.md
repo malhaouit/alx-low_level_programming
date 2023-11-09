@@ -1,4 +1,4 @@
-# Bit Manipulation.
+# Bit Manipulation
 
 In this repo, there is 7 tasks in C programming must solve. Each task cover bit manipulation operations.  
 The tasks are devided into two parts: **5 mandatory tasks** and **2 advanced**, this last is optional.
