@@ -1,3 +1,3 @@
 #!/bin/bash
 wget -P /link https://raw.githubusercontent.com/malhaouit/alx-low_level_programming/master/0x18-dynamic_libraries/libgm.so
-export iLD_PRELOAD=$(pwd)/link/libgm.so ./gm "$1" "$2" "$3" "$4" "$5" "$6"
+export LD_PRELOAD=$(pwd)/link/libgm.so
