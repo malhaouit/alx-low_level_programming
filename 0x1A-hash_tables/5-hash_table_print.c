@@ -1,6 +1,5 @@
 #include "hash_tables.h"
 #include <stdio.h>
-#include <stdbool.h>
 
 /**
  * hash_table_print - Prints a hash table
@@ -12,7 +11,7 @@ void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i;
 	hash_node_t *current;
-	bool is_first = true;
+	int first = 1;
 
 	if (ht == NULL)
 		return;
@@ -24,10 +23,10 @@ void hash_table_print(const hash_table_t *ht)
 
 		while (current != NULL)
 		{
-			if (!is_first)
+			if (!first)
 				printf(", ");
 			printf("'%s': '%s'", current->key, current->value);
-			is_first = false;
+			first = 0;
 			current = current->next;
 		}
 	}
