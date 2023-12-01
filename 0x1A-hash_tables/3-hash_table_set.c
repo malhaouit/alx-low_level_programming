@@ -28,6 +28,7 @@ hash_node_t *hash_node_create(const char *key, const char *value)
 	new_hn->value = strdup(value);
 	if (new_hn->value == NULL)
 	{
+		free(new_hn->key);
 		free(new_hn);
 		return (NULL);
 	}
