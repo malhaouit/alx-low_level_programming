@@ -1,5 +1,8 @@
 # Hash Tables Project
 
+## Introduction
+
+
 This project focuses on how to create, modify, and manipulate **Hash Tables** in C programming language we are studying. It includes a number of mandatory and advanced tasks.  
 
 ## Project Structure
