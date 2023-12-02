@@ -2,10 +2,12 @@
 
 ## Introduction
 
-Welcome to my ALX Software Engineering Projects Repository! I am a student at ALX and this repository serves as a collection of my projects related to C programming. As a learner at ALX, I am committed to following ethical guidelines, and I understand that sharing the content of specific tasks or resources on this platform is not allowed.  
+Hello, I'm a student at ALX Software Engineering School. This repository contains my projects as part of the curriculum. The program is based on self-learning through resources and problem-solving tasks provided by the school.   
 
-**Note:** Due to academic integrity policies, I won't be sharing the detailed content of individual tasks. However, I'll provide general information and hints to give you an overview of the skills and concepts covered in each project.  
+**Note:** Due to the school's policy, I'm not allowed to share the specific resources or detailed task descriptions. I can only provide a brief overview or purpose of each task. 
 
 ## Repository Structure
 
-This repository is organized into directories, each dedicated to a specific C programming project. Inside each project directory, you will find the relevant source code, documentation, and some additional information needed for that particular task.
+This repository contains several root directories, each representing a new project. Each project includes a number of **mandatory** and **advanced** tasks related to a new concept in the programming language we are studying. The tasks are ordered by numbers (Task 0, Task 1...).
+
+For the mandatory tasks, the filenames start from `0-filename.c` and so on. The advanced tasks start from `100-filename.c` regardless of the total number of tasks.
