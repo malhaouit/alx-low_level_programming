@@ -10,10 +10,7 @@ all: school
 $(NAME): $(OBJ)
 	$(CC) $^ -o $@
 
-main.o: main.c
-	$(CC) $(CFLAGS) -c -o $@ $<
-
-school.o: school.c
+%.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
