@@ -2,7 +2,7 @@ all: school
 
 CC= gcc
 SRC= main.c school.c
-OBJ= main.o school.o
+OBJ= *.o
 NAME= school
 
 $(NAME): $(OBJ)
